@@ -6,7 +6,11 @@ Visit the [main site](https://5e.tools/5etools.html) or go to the unofficial Git
 
 [Join the 5etools Discord here!](https://discord.gg/AzyBjtQ)
 
-## Running 5etools Locally (Offline Copy)
+For Support/Usage Questions [Click Here to visit our Wiki](https://wiki.5e.tools/index.php/Main_Page)
+
+## To install the Site for local use..
+
+### Running 5etools Locally (Offline Copy)
 There are several options for running a local/offline copy of 5etools, including:
 
 **Beginner:** Use Firefox to open the files.
@@ -16,25 +20,11 @@ There are several options for running a local/offline copy of 5etools, including
 ![Chrome tutorial](https://raw.githubusercontent.com/TheGiddyLimit/TheGiddyLimit.github.io/master/chrome-tutorial.png "Chrome tutorial")
 
 Be sure to close any running Chrome instances (and kill any remaining Chrome processes as required) before opening the shortcut. A summary of the security implications can be found [here](https://superuser.com/a/873527).
- 
-**Advanced:** Host the project locally on a dev webserver, perhaps using [this](https://github.com/cortesi/devd).
 
-## How to import 5etools creatures/spells/items into Roll20
-1. Get Tampermonkey for ([Firefox](https://tampermonkey.net/?ext=dhdg&browser=firefox)) or ([Chrome](https://tampermonkey.net/)).
+### Running site (advanced) 
+**Advanced:** Host the project locally on a dev webserver, or locally using a webservice find out more [here](Install Guide.MD) 
 
-2. Click [here](https://get.5e.tools/script/betteR20-5etools.user.js) and install the script.
 
-3. Open the Roll20 game where you want the stuff imported.
-
-4. Go to the gear icon and click within the Import by Category on the thing you want imported.
-
-5. Follow the prompts and make selections as are needed.
-
-6. Let it run. The journal will start fill up with the stuff you selected. It's not too laggy but can take a long time depending on the amount of stuff you selected.
-
-7. Bam. Done. If you are using the Shaped sheet, be sure to open up the NPC sheets and let them convert before using it.
-
-You can convert stat blocks to JSON for importing via [this converter](converter.html).
 
 ## Dev Notes
 ### Target JavaScript Version
